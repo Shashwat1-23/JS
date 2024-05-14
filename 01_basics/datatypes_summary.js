@@ -52,3 +52,27 @@ console.log(typeof anotherId);
 // name = “Ali”; //Values have types
 
 // name = 2; //variable change type dynamically
+
+
+// -------------------------------------------
+//stack(Primitive)  Heap(Non-primitive)
+
+//stack
+let myYoutubename="shashwat mishra"
+let anothername=myYoutubename
+anothername="harshit"
+
+// console.log(myYoutubename);
+// console.log(anothername);
+
+
+//heap
+let userOne={
+    email:"shashwatmishra2017@gmail.com",
+    upi:"sha@oksbi"
+}
+let userTwo=userOne
+userTwo.email="contactshashwat2022@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
